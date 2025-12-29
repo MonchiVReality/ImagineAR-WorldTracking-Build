@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Unity WebGL Player | Imagine_Geolocation_India_20250930</title>
+    <title>Unity WebGL Player | Imagine_Geolocation_Brussels</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -56,7 +56,7 @@
         <p id="errorText" style="text-align: center; width:60vw; color:#7f3f3f; font-size: max(3vw, 3vh);"></p>
     </div>
     <div id="unity-container">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1080 height=1920 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -153,14 +153,14 @@
         }, 500);
 
         var buildUrl = "Build";
-        var loaderUrl = buildUrl + "/Buildgeo.loader.js";
+        var loaderUrl = buildUrl + "/Brussels_v00.loader.js";
         var config = {
-          dataUrl: buildUrl + "/Buildgeo.data",
-          frameworkUrl: buildUrl + "/Buildgeo.framework.js",
-          codeUrl: buildUrl + "/Buildgeo.wasm",
+          dataUrl: buildUrl + "/Brussels_v00.data",
+          frameworkUrl: buildUrl + "/Brussels_v00.framework.js",
+          codeUrl: buildUrl + "/Brussels_v00.wasm",
           streamingAssetsUrl: "StreamingAssets",
           companyName: "DefaultCompany",
-          productName: "Imagine_Geolocation_India_20250930",
+          productName: "Imagine_Geolocation_Brussels",
           productVersion: "0.1",
           showBanner: unityShowBanner,
         };

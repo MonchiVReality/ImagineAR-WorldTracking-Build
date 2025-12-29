@@ -1,9 +1,9 @@
-const cacheName = "DefaultCompany-Imagine_Geolocation_India_20250930-0.1";
+const cacheName = "DefaultCompany-Imagine_Geolocation_Brussels-0.1";
 const contentToCache = [
-    "Build/Buildgeo.loader.js",
-    "Build/Buildgeo.framework.js",
-    "Build/Buildgeo.data",
-    "Build/Buildgeo.wasm",
+    "Build/Brussels_v00.loader.js",
+    "Build/Brussels_v00.framework.js",
+    "Build/Brussels_v00.data",
+    "Build/Brussels_v00.wasm",
     "TemplateData/style.css"
 
 ];
